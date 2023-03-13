@@ -1,0 +1,286 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+  nav {
+    padding: 20px;
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    /* background: url(/src/components/navbar/\hero-bg.png)repeat center/cover; */
+    box-shadow: 0 5px black(0, 0, 0, 0.06)
+}
+
+.first-nav{
+    display: flex;
+    align-items: center;
+}
+.first-nav li{
+    list-style: none;
+    padding-left: 20px;
+    
+}
+.sec-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.button {
+    display: none;
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #FF4667;
+    
+}
+.button{
+    display: none;
+}
+
+.sec-nav li {
+
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+    transition: 0.3 ease-in-out;
+}
+.nav-login{
+
+    background-color: #FF4667;
+    width: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 45px ;
+}
+.search-img{
+    margin-left: -40px;
+    margin-bottom: -8px;
+}
+.nav-signup{
+
+color: #392C7D;
+    width: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    height:45px ;
+}
+.nav-signup:hover::after,.nav-login:hover::after{
+   
+    display: none;
+}
+.sec-nav li:hover {
+    cursor: default;
+    color: green
+}
+
+.sec-nav li:hover::after,
+.sec-nav li.active::after {
+    content: "";
+    width: 30px;
+    height: 2px;
+    background: rgb(240, 89, 89);
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .button {
+        display: flex;
+
+    }
+.first-nav{
+    font-size: 16px;
+}
+    .sec-nav {
+        width: 100%;
+        height: 90%;
+        font-size: 16px;
+        flex-direction: column;
+        gap: 50px;
+        justify-content:flex-start;
+        position: fixed;
+        top: 1000px;
+        transition: 1s;
+        padding-top: 20px;
+
+    }
+   #image{
+        width: 20px;
+        height: 26px;
+    }
+
+    #hidden {
+       
+        background: url(/src/components/navbar/\hero-bg.png) repeat center/cover;
+        top: 120px;
+        left: 0;
+        transition: 1s;
+
+
+        /* display: flex; */
+        /* position: absolute; */
+        /* background: url(/src/components/navbar/\hero-bg.png) repeat center/cover;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        top: 120px;
+        right: 0%;
+        gap: 50px;
+        width: 100%;
+        height: 100vh;
+        font-size: 16px;
+        transition: 1s; */
+
+
+    }
+
+}
+
+
+
+
+.home {
+    background: url(/src/components/navbar/\hero-bg.png)repeat center/cover;
+}
+
+.learn-Page {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.learn-left {
+    
+    position: absolute;
+    top: 120px;
+    transition: 1s;
+    max-width: 100%;
+    margin-left: 135px;
+}
+#hidden1{
+    position: absolute;
+    top: -1000px;
+    transition: 1s;
+}
+.learn-left p {
+    font-size: 21px;
+
+}
+
+.learn-left h1 {
+    font-size: 52px;
+    width: 599px;
+    height: 156px;
+    margin: 15px 0;
+    display: inline-block;
+}
+
+.learn-left ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.learn-left input {
+    margin: 15px 0;
+    height: 60px;
+    width: 530px;
+    border: none;
+
+    border-radius: 10px;
+}
+
+.learn-left button {
+    margin: 15px 0;
+    height: 50px;
+    width: 160px;
+    background-color: rgb(47, 47, 163);
+    border: none;
+}
+
+.learn-img-right {
+    width: 90%;
+    height: 585px;
+}
+
+
+@media screen and (max-width: 650px){
+  
+  .learn-Page{
+    width: 430px;
+  }
+  
+    .learn-left{
+        margin-left: 28px;
+    }
+
+    .learn-left p{
+        font-size: 16px;
+        display: inline-block;
+        height: 24px;
+    }
+    
+    .learn-left h1{
+       width: 386px;
+       height: 78px;
+        font-size: 26px;
+    }
+    .learn-img-right{
+        display: none;
+    }
+    .learn-left input{
+        width: 80%;
+    
+      }
+    .search-img{
+        margin-left: -40px;
+        margin-bottom: -8px;
+    }
+}
+@media screen and (max-width: 375px){
+    .learn-Page{
+      width: 100%;
+    }
+    
+      .learn-left{
+          margin-left: 28px;
+      }
+  
+      .learn-left p{
+          font-size: 16px;
+          display: inline-block;
+          height: 24px;
+      }
+      
+      .learn-left h1{
+         width: 100%;
+         height: 78px;
+          font-size: 26px;
+      }
+      .learn-left input{
+        width: 80%;
+    
+      }
+      .learn-left button{
+        width: 80px;
+        
+      }
+      .learn-img-right{
+          display: none;
+      }
+  
+  }
