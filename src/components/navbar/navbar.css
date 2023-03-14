@@ -220,7 +220,7 @@ color: #392C7D;
         height: 90%;
         font-size: 16px;
         flex-direction: column;
-        gap: 103px;
+        gap: 50px;
         justify-content:flex-start;
         position: absolute;
         top: -1000px;
