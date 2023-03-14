@@ -6,14 +6,14 @@ import { useState } from 'react'
 import logo from './logo.png'
 import search from './search-icon.svg'
 
-const Navbar = () => {
+const Navbar = ({Add}) => {
   const [menu, setmenu] = useState(false)
 
   return (
     <div>
       <div id='hero'>
-        <nav>
-          <div className='first-nav'>
+        <nav >
+          <div className='first-nav' >
 
             <img src={logo} id='image' alt="" />
             <li>
@@ -27,10 +27,14 @@ const Navbar = () => {
             <li className='nav-signup'>signup</li>
             <li className='nav-login'>login</li>
           </div>
-          <button className='button' onClick={() => setmenu(!menu)}>
+          <button className='button' onClick={() => {setmenu(!menu)
+          Add(!menu)  
+        }
+          }>
            Menu
           </button>
         </nav>
+      
         {menu ? ('') : (<div className='learn-Page'>
           <div className='learn-left'>
             <p>Learn with us and</p>

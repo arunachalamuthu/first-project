@@ -3,6 +3,7 @@
     padding: 0%;
 }
 
+
   nav {
     padding: 20px;
     display: flex;
@@ -155,6 +156,7 @@ color: #392C7D;
     height: 585px;
 }
 
+
 @media screen and (max-width: 1050px) {
     .learn-img-right {
         width: 100%;
@@ -212,6 +214,7 @@ color: #392C7D;
         display: flex;
 
     }
+
 .first-nav{
     font-size: 16px;
 }
@@ -222,11 +225,14 @@ color: #392C7D;
         flex-direction: column;
         gap: 50px;
         justify-content:flex-start;
-        position: absolute;
+        position: fixed;
         top: -1000px;
         transition: 1s;
         padding-top: 20px;
 
+    }
+    #secondClass{
+        display: none;
     }
    #image{
         width: 20px;
@@ -238,23 +244,7 @@ color: #392C7D;
         background: url(/src/components/navbar/\hero-bg.png) repeat center/cover;
         top: 120px;
         left: 0;
-        transition: 1s;
-
-
-        /* display: flex; */
-        /* position: absolute; */
-        /* background: url(/src/components/navbar/\hero-bg.png) repeat center/cover;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
-        top: 120px;
-        right: 0%;
-        gap: 50px;
-        width: 100%;
-        height: 100vh;
-        font-size: 16px;
-        transition: 1s; */
-
+        transition: 1s
 
     }
 
