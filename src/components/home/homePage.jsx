@@ -23,9 +23,10 @@ import desktop from './image/desk.png'
 import google from './image/play.png'
 import rectanguler26 from './image/Rectangle 26.png'
 import rectanguler27 from './image/Rectangle 26 (1).png'
-
+import Responsive from '../../testing'
 import { useState } from 'react'
 import Navbar from '../navbar/navbar'
+// import { css, jsx } from '@emotion/core'
 // import image from './image/hero.png'
 const HomePage = () => {
   const [menu, setmenu] = useState(false)
@@ -526,9 +527,10 @@ const HomePage = () => {
             <img src={google} alt="" />
           </div>
         </div>
+       
 
       </div>
-
+    
 
     </div>
   )

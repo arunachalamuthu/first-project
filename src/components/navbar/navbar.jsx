@@ -21,7 +21,7 @@ const Navbar = () => {
             </li>
           </div>
           <div className='sec-nav' id={menu ? "hidden" : ""}>
-            <li className='active'>home</li>
+            <li className='active'>Home</li>
             <li>about</li>
             <li>courses</li>
             <li className='nav-signup'>signup</li>
