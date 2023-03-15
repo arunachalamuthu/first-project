@@ -9,7 +9,6 @@ import rectanguler27 from './image/Rectangle 26 (1).png'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
 import React from 'react'
 
 const slider = () => {
@@ -26,7 +25,7 @@ const slider = () => {
     responsive: [
         
       {
-        breakpoint: 900,
+        breakpoint: 1050,
         settings: {
           centerMode: false,
           slidesToShow: 2,
@@ -38,7 +37,7 @@ const slider = () => {
         breakpoint: 800,
         settings: {
           centerMode: false,
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 3,
       
         }
@@ -67,7 +66,8 @@ const slider = () => {
   return (
     <div className='div'>
       <div >
-        <h2>Center Mode</h2>
+        <h2 className='h2-heading'>Testimonials</h2>
+        <p className='p-heading'>See What Our Users Have To Say</p>
         <Slider {...settings}>
 
             <div className='list-class'>
@@ -77,7 +77,7 @@ const slider = () => {
                 <h1 className='heading'>Guy Hawkins</h1>
                 <p>Student</p>
               </div>
-              <img src={qouote} alt="" />
+              <img className='image-2' src={qouote} alt="" />
             </ul>
             <p className='list-class-p'>Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst.
               Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.</p>
@@ -90,9 +90,9 @@ const slider = () => {
                 <h1  className='heading'>Guy Hawkins</h1>
                 <p>Student</p>
               </div>
-              <img src={qouote} alt="" />
+              <img  className='image-2' src={qouote} alt="" />
             </ul>
-            <p>Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst.
+            <p className='list-class-p' >Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst.
               Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.</p>
           </div>
 
@@ -104,9 +104,9 @@ const slider = () => {
                 <h1  className='heading'>Guy Hawkins</h1>
                 <p>Student</p>
               </div>
-              <img src={qouote} alt="" />
+              <img className='image-2' src={qouote} alt="" />
             </ul>
-            <p>Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst.
+            <p className='list-class-p' >Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst.
               Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.</p>
           </div>
 
@@ -118,9 +118,9 @@ const slider = () => {
                 <h1  className='heading'>Guy Hawkins</h1>
                 <p>Student</p>
               </div>
-              <img src={qouote} alt="" />
+              <img className='image-2' src={qouote} alt="" />
             </ul>
-            <p>Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst.
+            <p className='list-class-p' >Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst.
               Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.</p>
           </div>
 
@@ -131,9 +131,9 @@ const slider = () => {
                 <h1  className='heading'>Guy Hawkins</h1>
                 <p>Student</p>
               </div>
-              <img src={qouote} alt="" />
+              <img className='image-2' src={qouote} alt="" />
             </ul>
-            <p>Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst.
+            <p className='list-class-p' >Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst.
               Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.</p>
           </div>
 
@@ -144,9 +144,9 @@ const slider = () => {
                 <h1  className='heading'>Guy Hawkins</h1>
                 <p>Student</p>
               </div>
-              <img src={qouote} alt="" />
+              <img  className='image-2' src={qouote} alt="" />
             </ul>
-            <p>Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst.
+            <p className='list-class-p' >Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst.
               Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.</p>
           </div>
 
@@ -157,9 +157,9 @@ const slider = () => {
                 <h1  className='heading'>Guy Hawkins</h1>
                 <p>Student</p>
               </div>
-              <img src={qouote} alt="" />
+              <img className='image-2' src={qouote} alt="" />
             </ul>
-            <p>Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst.
+            <p className='list-class-p' >Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst.
               Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.</p>
           </div>
         </Slider>

@@ -405,7 +405,7 @@
  /* testimonials */
 
 
- .testimonials{
+ /* .testimonials{
     padding-top: 40px;
     display: flex;
     width: 100%;
@@ -413,7 +413,7 @@
     align-items: center;
     justify-content: center;
     gap: 20px;
- }
+ } */
 
 .test-list{
 /* 
@@ -423,7 +423,7 @@
     overflow-x: scroll; */
  }
  
- .test-list-1{
+ /* .test-list-1{
   
     display: flex;
     gap: 10px;
@@ -455,9 +455,10 @@
     font-size: 16px;
     width: 60px;
     height: 24px;
-  } 
+  }  */
   #secondClass{
     display: none;
+    width: 100%;
 }
 
   /* view  */

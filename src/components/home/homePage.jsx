@@ -521,7 +521,7 @@ const HomePage = () => {
 
                   <p>Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst.
                     Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.</p>
-                </div> */}
+                    </div> */}
 
 
             </div>
