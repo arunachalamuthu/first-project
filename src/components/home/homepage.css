@@ -416,11 +416,11 @@
  }
 
 .test-list{
-
+/* 
     display: grid;
     grid-template-columns: repeat(6,1fr);
     width: 50%;
-    overflow-x: scroll;
+    overflow-x: scroll; */
  }
  
  .test-list-1{
