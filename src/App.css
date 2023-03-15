@@ -23,8 +23,9 @@
 .list-class {
   width: 50%;
   height: 30%;
-  margin: 0 20px;
-  padding: 0 20px;
+  /* margin: 0 20px; */
+  /* padding: 0 20px; */
+
 }
 
 .list-row {
@@ -46,7 +47,13 @@
 }
 @media(max-width:500px) {
   .list-class {
-    width: 50%;
+    width: auto;
+    height: auto;
+  }
+}
+@media(max-width:370px) {
+  .list-class {
+    width: auto;
     height: auto;
   }
 }
