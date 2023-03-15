@@ -148,12 +148,10 @@ color: #392C7D;
     background-color: rgb(47, 47, 163);
     border: none;
 }
-.learn-right{
-    width: 30%;
-}
+
 .learn-img-right {
-    width: 90%;
-    height: 585px;
+    width: 536px;
+    height: auto;
 }
 
 
@@ -196,17 +194,17 @@ color: #392C7D;
         padding-top: 20px;
 
     }
-    
-    #hidden {
-       
-        background: url(/src/components/navbar/\hero-bg.png) repeat center/cover;
-        top: 120px;
-        left: 0;
-        transition: 1s;
-    }
+
 
 }
-
+    
+#hidden {
+       
+    background: url(/src/components/navbar/\hero-bg.png) repeat center/cover;
+    top: 120px;
+    left: 0;
+    transition: 1s;
+}
 
 @media screen and (max-width: 600px) {
 
@@ -239,14 +237,14 @@ color: #392C7D;
         height: 26px;
     }
 
-    #hidden {
+    /* #hidden {
        
         background: url(/src/components/navbar/\hero-bg.png) repeat center/cover;
         top: 120px;
         left: 0;
         transition: 1s
 
-    }
+    } */
 
 }
 

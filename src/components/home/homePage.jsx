@@ -389,7 +389,7 @@ const HomePage = () => {
 
           <div>
             <div className='benefits-e-learn'>
-              <h1>Benefits of E-Learning</h1>
+              <h1>Benefits of <font color='blue'> E-Learning</font></h1>
               <div className='benefits'>
                 <div className='benefits-left'>
                   <ul>
@@ -405,8 +405,8 @@ const HomePage = () => {
                     <p>Effective time management not only helps with your learning but can also make you more productive at work and in your personal life</p>
                   </ul>
                 </div>
-                <div className='benefits-image'>
-                  <img src={elearning} alt="" />
+                <div className='benefits-img'>
+                  <img className='benefits-image' src={elearning} alt="" />
                 </div>
                 <div className='benefits-right'>
                   <ul>

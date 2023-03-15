@@ -122,12 +122,12 @@ color: #392C7D;
         height: 26px;
     }
 
-    #hidden {
+    /* #hidden {
        
         background: url(/src/components/navbar/\hero-bg.png) repeat center/cover;
         top: 120px;
         left: 0;
-        transition: 1s;
+        transition: 1s; */
 
 
         /* display: flex; */
@@ -145,10 +145,33 @@ color: #392C7D;
         transition: 1s; */
 
 
-    }
+    /* } */
 
 }
+#hidden {
+       
+    background: url(/src/components/navbar/\hero-bg.png) repeat center/cover;
+    top: 120px;
+    left: 0;
+    transition: 1s;
 
+
+    /* display: flex; */
+    /* position: absolute; */
+    /* background: url(/src/components/navbar/\hero-bg.png) repeat center/cover;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    top: 120px;
+    right: 0%;
+    gap: 50px;
+    width: 100%;
+    height: 100vh;
+    font-size: 16px;
+    transition: 1s; */
+
+
+}
 
 
 
