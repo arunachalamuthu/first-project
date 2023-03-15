@@ -427,108 +427,18 @@ const HomePage = () => {
           </div>
 
 
-         
-           
-            <div className="App1">
 
-              <div className='sec1'>
-                <Slide />
-              </div>
+
+          <div className="App1">
+
+            <div className='sec1'>
+              <Slide />
             </div>
-        
-
-
-          <div className='testimonials'>
-            <h1>Testimonials</h1>
-            <p>See What Our Users Have To Say</p>
-            <div className='test-list'>
-              {/* <div className='test-list-1'>
-                  <ul className='list-row'>
-                    <img src={rectanguler} alt="" />
-                    <div className='list-title'>
-                      <h1>Guy Hawkins</h1>
-                      <p>Student</p>
-                    </div>
-                    <img src={qouote} alt="" />
-                  </ul>
-                  <p>Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst.
-                    Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.</p>
-                </div>
-
-                <div className='test-list-1'>
-                  <ul className='list-row'>
-                    <img src={rectanguler26} alt="" />
-                    <div className='list-title'>
-                      <h1>Guy Hawkins</h1>
-                      <p>Student</p>
-                    </div>
-                    <img src={qouote} alt="" />
-                  </ul>
-                  <p>Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst.
-                    Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.</p>
-                </div>
-
-                <div className='test-list-1'>
-                  <ul className='list-row'>
-                    <img src={rectanguler27} alt="" />
-                    <div className='list-title'>
-                      <h1>Guy Hawkins</h1>
-                      <p>Student</p>
-                    </div>
-                    <img src={qouote} alt="" />
-                  </ul>
-
-                  <p>Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst.
-                    Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.</p>
-                </div>
-
-                <div className='test-list-1'>
-                  <ul className='list-row'>
-                    <img src={rectanguler} alt="" />
-                    <div className='list-title'>
-                      <h1>Guy Hawkins</h1>
-                      <p>Student</p>
-                    </div>
-                    <img src={qouote} alt="" />
-                  </ul>
-                  <p>Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst.
-                    Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.</p>
-                </div>
-
-                <div className='test-list-1'>
-                  <ul className='list-row'>
-                    <img src={rectanguler26} alt="" />
-                    <div className='list-title'>
-                      <h1>Guy Hawkins</h1>
-                      <p>Student</p>
-                    </div>
-                    <img src={qouote} alt="" />
-                  </ul>
-                  <p>Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst.
-                    Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.</p>
-                </div>
-
-                <div className='test-list-1'>
-
-                  <ul className='list-row'>
-                    <img src={rectanguler27} alt="" />
-                    <div className='list-title'>
-                      <h1>Guy Hawkins</h1>
-                      <p>Student</p>
-                    </div>
-                    <img src={qouote} alt="" />
-                  </ul>
-
-                  <p>Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst.
-                    Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.</p>
-                    </div> */}
-
-
-            </div>
-
-
-
           </div>
+
+
+
+       
           <div className='view'>
             <div className='view-left'>
               <img className='view-img1' src={mobile} alt="" />
