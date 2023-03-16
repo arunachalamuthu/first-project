@@ -150,7 +150,7 @@ color: #392C7D;
 }
 
 .learn-img-right {
-    width: 536px;
+    width: 100%;
     height: auto;
 }
 
@@ -158,7 +158,7 @@ color: #392C7D;
 @media screen and (max-width: 1050px) {
     .learn-img-right {
         width: 100%;
-        height: 585px;
+        height: auto;
     }
     .learn-left{
         margin-left:50px;

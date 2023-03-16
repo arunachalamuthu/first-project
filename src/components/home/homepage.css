@@ -610,14 +610,12 @@ padding-top: 30px;
 }
 
 .footer-image{
- 
- padding-top: 8%;   
+ padding-top: 8%;
+    
 }
-/* .footer-wrap{
-    display: flex;
-    gap: 20px;
-flex-wrap: wrap;
-} */
+.footer-image img{
+    padding-left: 20px;
+}
 
 
 @media(max-width:450px){
@@ -642,11 +640,7 @@ flex-wrap: wrap;
    grid-template-columns: 1fr 1fr;
    gap: 20px;
    }
-/* .footer-wrap{
-    display: flex;
-    width: 80%;
-    justify-content: space-around;
-} */
+
 .footer-course,.footer-help{
     display: grid;
     width: 100%;
@@ -658,6 +652,9 @@ flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 40px;
+}
+.footer-image img{
+    padding-left: 0;
 }
 
 }
