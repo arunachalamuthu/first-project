@@ -599,11 +599,16 @@ width: 100%;
     gap: 15px;
 }
 .footer-course,.footer-help{
+  
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    /* gap: 20px; */
     font-weight: bold;
 }
+.footer-course li,.footer-help li{
+padding-top: 30px;
+}
+
 .footer-image{
  
  padding-top: 8%;   
@@ -617,7 +622,8 @@ flex-wrap: wrap;
 
 @media(max-width:450px){
     .footer-top{
-        width: 100%; 
+        width: 80%; 
+        padding-left: 0%;
        }
     .footer-mit{
         display: flex;
