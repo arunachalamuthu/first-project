@@ -23,6 +23,11 @@ import desktop from './image/desk.png'
 import google from './image/play.png'
 import rectanguler26 from './image/Rectangle 26.png'
 import rectanguler27 from './image/Rectangle 26 (1).png'
+import logo from './image/logo-2.svg'
+import twitter from './image/twitter-icon.svg'
+import facebook from './image/facebook-icon.svg'
+import insta from './image/instagram-icon.svg'
+import linkedin from './image/linkedin-icon.svg'
 import Responsive from '../../testing'
 import { useState } from 'react'
 import Navbar from '../navbar/navbar'
@@ -455,6 +460,49 @@ const HomePage = () => {
 
         </div>
       </div>
+
+      <footer id={menu ? "secondClass" : ""}>
+
+        <div className='footer-top'>
+          <img src={logo} alt="" />
+          <h1>EKalai</h1>
+        </div>
+
+   <div className='footer-mit'>
+    <div className='footer-contact '>
+      <div >
+      <li>contact</li>
+      <li>+91 9789696987</li>
+      </div>
+      <ul>
+        <li>329 queensberry Street,</li>
+        <li>coimbatore,india.</li>
+        <li>info@ekalai.in</li>
+      </ul>
+    </div>
+    {/* <div className='footer-wrap'> */}
+    <div className='footer-course'>
+      <li>about</li>
+      <li>courses</li>
+      <li>Support</li>
+    </div>
+    <div className='footer-help'>
+      <li>Help</li>
+      <li>Privacy Policy</li>
+      <li>Terms of use</li>
+    </div>
+    {/* </div> */}
+    <div className='footer-image'>
+      <div>
+      <img src={twitter} alt="" />
+      <img src={facebook} alt="" />
+      <img src={insta} alt="" />
+      <img src={linkedin} alt="" />
+    </div>
+    </div>
+   </div>
+
+      </footer>
 
     </div>
   )

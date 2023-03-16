@@ -66,8 +66,8 @@ const slider = () => {
   return (
     <div className='div'>
       <div >
-        <h2 className='h2-heading'>Testimonials</h2>
-        <p className='p-heading'>See What Our Users Have To Say</p>
+        <h2 className='h2-heading' style={{color:'blue',paddingBottom:'20px'}}>Testimonials</h2>
+        <p className='p-heading' style={{paddingBottom:'30px'}}>See What Our Users Have To Say</p>
         <Slider {...settings}>
 
             <div className='list-class'>
